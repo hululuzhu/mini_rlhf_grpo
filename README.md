@@ -17,7 +17,7 @@ This project implements a full mini-RLHF pipeline with multiple training phases:
 ## 🚀 Quick Start
 
 **New to this project? Start here:**
-1. 🏗️ See [`markdowns/architecture.md`](markdowns/architecture.md) for detailed architecture
+1. 🏗️ See [`architecture.md`](architecture.md) for detailed architecture
 
 **TL;DR:**
 ```bash
@@ -174,10 +174,7 @@ python run_all.py --test-only    # Run tests without training
 
 ## 📚 Documentation
 
-- **[`QUICK_START.md`](QUICK_START.md)**: Step-by-step setup and usage guide
-- **[`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md)**: Complete project overview and status
-- **[`IMPLEMENTATION_NOTES.md`](IMPLEMENTATION_NOTES.md)**: Detailed technical documentation
-- **[`markdowns/architecture.md`](markdowns/architecture.md)**: Comprehensive system architecture and data flow diagrams
+- **[`architecture.md`](architecture.md)**: Comprehensive system architecture and data flow diagrams
 - **README.md**: This file - general information and project overview
 
 ## 🔮 Future Work & Next Steps
@@ -187,7 +184,7 @@ python run_all.py --test-only    # Run tests without training
 - **Larger Scale Training**: Scale to larger datasets and model sizes for better performance
 - **Evaluation Metrics**: Implement comprehensive evaluation beyond basic generation quality
 
-### RLVF Integration (DeepSeek R1)
+### RLVF Integration (DeepSeek R1)?
 Next phase involves implementing **Reinforcement Learning with Verifiable Feedback (RLVF)** from DeepSeek, so that we will further replace the expensive reward model with some verifiable feedback like math/lean/general_code execution feedback if applicable.
 
 See [DeepSeek R1](https://arxiv.org/abs/2501.12948) for detailed methodology.
