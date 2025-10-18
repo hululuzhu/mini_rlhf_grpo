@@ -17,10 +17,7 @@ This project implements a full mini-RLHF pipeline with multiple training phases:
 ## 🚀 Quick Start
 
 **New to this project? Start here:**
-1. 📖 Read [`QUICK_START.md`](QUICK_START.md) for step-by-step setup
-2. 🎯 Check [`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md) for complete overview
-3. 📝 Review [`IMPLEMENTATION_NOTES.md`](IMPLEMENTATION_NOTES.md) for technical details
-4. 🏗️ See [`markdowns/architecture.md`](markdowns/architecture.md) for detailed architecture
+1. 🏗️ See [`markdowns/architecture.md`](markdowns/architecture.md) for detailed architecture
 
 **TL;DR:**
 ```bash
